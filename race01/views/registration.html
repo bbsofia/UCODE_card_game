@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="../js/client.js"></script>
+</head>
+<body>
+    <div class="registration">
+        <h1>Registration</h1>
+        <form action="" method="post">
+            <input id="login" type="text" name="registration[login]" placeholder="input login" required pattern="^[\w\d]+$"><br>
+            <input id="password" type="password" name="registration[password]" placeholder="input password" required pattern="^[\w\d]+$"><br>
+            <input id="confirm_password" type="password" name="registration[confirm_password]" placeholder="confirm password" required pattern="^[\w\d]+$"><br>
+            <input id="full_name" type="text" name="registration[full_name]" placeholder="full name" required pattern="^[\w\d\s]+$"><br>
+            <input id="email" type="email" name="registration[email]" placeholder="input email" required pattern="^[\w\d\.\@_\-]+$"><br>
+            <input id="button" type="submit" value="Registration">
+            
+        </form>
+        <form action="" method="post">
+            <input id="reg" name="registration[button]" type="submit" value="Back">
+        </form>
+        <p>#ERROR#</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body { 
+    background: url('https://avatanplus.com/files/resources/original/59ec3c951b0a215f42cca677.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body>div {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+span {
+    display: block;
+    margin-bottom: 2px;
+}
+
+input {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="button"] {
+    width: 25%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+/* div#socket-info {
+    padding: 5px;
+    border: 1px solid #ddd;
+} */

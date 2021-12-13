@@ -1,0 +1,103 @@
+body { 
+    background: url('../img/login.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input{ 
+    background-color: white; 
+    border: none;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 30px;
+    width: 300px;
+    margin-left: calc(50% - 150px);
+    outline: none;
+    padding-left: 15px;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+#button, #find{
+    background-color: white; 
+    border: none;
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 30px;
+    width: 150px;
+    margin-left: calc(50% - 75px);
+}
+
+#button:hover, #find:hover{
+    color: white;
+    transition: all 1s ease-out;
+    background: linear-gradient(90deg, rgba(188,64,114,1) 0%, rgba(25,33,93,1) 100%);
+    /* background: tomato; */
+}
+
+p{
+    text-align: center;
+    color: red;
+}
+
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 350px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    overflow: hidden;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 3px 3px 51px 9px black;
+}
+.main::before {
+    position: absolute;
+    z-index: -1;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: inherit;
+    box-shadow: inset 0 0 3000px rgba(195, 195, 195, 0.5);
+    filter: blur(10px);
+    margin: -20px;
+  }
+
+  .registration{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 350px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    overflow: hidden;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 3px 3px 51px 9px black;
+  }
+
+  .registration::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: inherit;
+    box-shadow: inset 0 0 3000px rgba(195, 195, 195, 0.5);
+    filter: blur(10px);
+    margin: -20px;
+  }

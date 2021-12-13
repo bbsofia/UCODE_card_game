@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Sign in</h1>
+        <form method="post">
+            <input id="login" type="text" name="signIn[login]" placeholder="input login" required pattern="^[\w\d]+$"><br>
+            <input id="password" type="password" name="signIn[password]" placeholder="input password" required pattern="^[\w\d]+$"><br>
+            <input id="button" type="submit" value="Sign in" onclick="signIn()">
+        </form>
+        <form action="" method="post">
+            <input id="button" name="signIn[registration]" type="submit" value="Registration">
+            <!-- <input id="button" name="remind" type="submit" value="Remind password"> -->
+        </form>
+        <p>#ERROR#</p>
+    </div>
+</body>
+</html>
